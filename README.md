@@ -1,48 +1,17 @@
-Boilerplate project
+jUnit. Home work 1
 ===============
-This project is a ready-to use boilerplate for "It's not a bug, It's a feature" Java course.
+1\. Create jUnit rule
+---------------
+Create new jUnit rule to provide functionality of test cases rerun on exceptions.
 
-#### How-to use
+Test rule should have 2 parameters:
+1. retryCount - amount of retries before test should be failed.
+2. Array of exception classes on which retry should be performed.
 
-1. `git clone https://github.com/ChangeRequest/boilerplate-project.git name_of_new_project`
-2. `git remote remove origin`
-3. `git remote add origin https://github.com/new_repo/name_of_new_project.git`
-4. Update project name in `settings.gradle`
-5. Update `README.MD` to match newly created repository.
-6. Update Author name in `LICENSE` (if needed)
-7. Continue working in your new ready-to-use repository.
+2\. Create jUnit runner
+---------------
+Create new jUnit runner to provide functionality of test cases rerun on exceptions.
 
-####Already configured parts
+Functionality of runner should be same as functionality of rule, you have created.
 
-* Travis-CI configuration file
-* .gitignore file
-* build.gradle (already contains all needed imports)
-* License file with `Apache License Version 2.0`
-* empty package in src folder (`school.lemon.changerequest.java`)
-
-#### Travis-CI configuration
-* Oracle JDK 8
-* Install step: `gradlew clean assemble`
-* Check step: `gradlew check`
-
-#### .gitignore
-Already configured to ignore most of unwonted stuff:
-* eclipse ignores
-* IDEA ignores
-* Java and Groovy ignores
-* gradle and maven ignores
-* etc.
-
-#### build.gradle
-* group is `school.lemon.changerequest.java`
-* applied module from [gradle_common project]:
-  * commonModule
-  * javaModule
-  * testModule
-  * idea
-  * eclipse
-
-
-  
-[gradle_common project]: https://github.com/ChangeRequest/gradle_common
-
+Think about runner parameters, how runner could be configured ?
