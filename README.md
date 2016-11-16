@@ -1,4 +1,4 @@
-jUnit. Home work 1
+jUnit. Practice Task 1
 ===============
 1\. Create jUnit rule
 ---------------
