@@ -1,5 +1,7 @@
 jUnit. Practice Task 1
 ===============
+
+[![Join the chat at https://gitter.im/changerequest/junit.pr1](https://badges.gitter.im/changerequest/junit.pr1.svg)](https://gitter.im/changerequest/junit.pr1?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 1\. Create jUnit rule
 ---------------
 Create new jUnit rule to provide functionality of test cases rerun on exceptions.
